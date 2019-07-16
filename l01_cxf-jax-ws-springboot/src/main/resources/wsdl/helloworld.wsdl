@@ -7,7 +7,7 @@
     <wsdl:types>
         <xsd:schema targetNamespace="http://codenotfound.com/types/helloworld"
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
-                    attributeFormDefault="unqualified" version="1.0">
+                    version="1.0">
 
             <xsd:element name="person">
                 <xsd:complexType>

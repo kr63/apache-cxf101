@@ -15,7 +15,7 @@ public class HelloWorldClient {
         this.helloWorldPortType = helloWorldPortType;
     }
 
-    public String sayHello(String firstName, String lastName) {
+    String sayHello(String firstName, String lastName) {
         ObjectFactory factory = new ObjectFactory();
 
         Person person = factory.createPerson();
